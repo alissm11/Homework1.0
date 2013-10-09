@@ -1,1 +1,151 @@
-@import url(css/reset.css); 
+@import url(reset.css); 
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,700,400italic);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 10px; 
+	background-image: url(../img/vintage_speckles.png);
+	background-repeat: repeat;
+    padding: 10px;
+}
+
+p {
+	padding: 5px; 
+}
+
+/* this is the white content box */
+.container {
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #FFF;
+}
+
+/* the following rules are for our  
+site navigation bar */
+nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    background-color: #000;
+    color: #FFF;
+    font-size: 110%;
+    font-weight: 700;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #875AC6;
+}
+
+nav li a:hover {
+    background-color: #FFF;
+    text-decoration: none;
+}
+
+
+
+a:link,
+a:visited {
+	text-decoration: none; 
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: underline;
+}
+
+header h1 {
+	font-family: 'Josefin Sans', sans-serif; 
+	font-weight: bold; 
+	font-size: 60px;
+}
+
+header h2 {
+	font-family: 'Josefin Sans', sans-serif; 
+	font-weight: bold; 
+	font-style: italic; 
+	padding-top: 5px; 
+}
+
+header img {
+	float: left;
+	padding-right: 10px;
+}
+
+header img {
+	float: left;
+}
+
+.contact-info {
+	font-size: 110%; 
+	font-family: 'Josefin Sans', sans-serif; 
+	font-weight: bold;
+	padding: 5px; 
+}
+
+/*Formatting for menu page*/
+.menu h2 {
+	font-size: 200%; 
+	font-weight: bold; 
+	font-family: 'Josefin Sans', sans-serif; 
+	padding: 10px;
+}
+
+.menu-item {
+	font-size: 100%; 
+	font-weight: bold;
+	padding: 10px; 
+	color: #875AC6;
+}
+
+.menu-item p {
+	font-size: 80%; 
+}
+
+ul {
+	font-size: 100%; 
+	font-weight: bold; 
+	font-family: 'Josefin Sans', sans-serif; 
+}
+
+li {
+	font-size: 100%; 
+	font-weight: bold; 
+	padding: 5px; 
+}
+
+dt {
+	font-size: 110%; 
+	font-weight: bold;
+	padding: 5px;  
+}
+
+dl {
+	font-size: 80%; 
+	font-weight: bold; 
+	font-style: italic;
+	padding: 5px; 
+}
+
+/*Formatting for the about us page*/ 
+.about-us-info {
+	font-family: 'Josefin Sans', sans-serif;  
+	font-size: 100%; 
+	font-weight: bold; 
+}
+
+.about-us-info h2 {
+	font-family: 'Josefin Sans', sans-serif;  
+	font-size: 150%; 
+	font-weight: bold;
+}
